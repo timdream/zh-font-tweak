@@ -1,0 +1,41 @@
+{
+    "name": "zh-font-tweak",
+    "license": "MIT License",
+    "author": "Tim Chien",
+    "homepage": "https://github.com/timdream/zh-font-tweak",
+    "version": "0.1",
+    "fullName": "Chinese default font tweak",
+    "license": "MIT License (https://github.com/timdream/zh-font-tweak/blob/master/LICENSE)",
+    "id": "zh-font-tweak-jetpack@timdream.org",
+    "description": "Overwrite default Chinese fonts settings in Firefox.",
+    "preferences": [
+        {
+            "name": "general_font_overwrite",
+            "type": "menulist",
+            "title": "Default Chinese font",
+            "value": "automatic",
+            "options": [
+                {
+                    "value": "automatic",
+                    "label": "automatic"
+                },
+                {
+                    "value": "zh-CN",
+                    "label": "zh-CN"
+                },
+                {
+                    "value": "zh-HK",
+                    "label": "zh-HK"
+                },
+                {
+                    "value": "zh-TW",
+                    "label": "zh-TW"
+                },
+                {
+                    "value": "off",
+                    "label": "off"
+                }
+            ]
+        }
+    ]
+}
