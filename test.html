@@ -5,9 +5,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>zh-font-tweak manual test</title>
   <style>
-  html {
-    font-size: 200%;
-  }
   .sans-serif {
     font-family: sans-serif;
   }
@@ -17,43 +14,49 @@
   .monospace {
     font-family: monospace;
   }
+  .label {
+    display: inline-block;
+    width: 4em;
+  }
+  .specimen {
+    font-size: 250%;
+    border: 1px solid transparent;
+  }
+  .specimen:hover {
+    border: 1px solid #ddf;
+  }
   </style>
   </head>
 <body>
+  <p><strong>Protip</strong>: Use DevTools to inspect element to see the font used by Firefox.</p>
   <div class="sans-serif">
     <h2>sans-serif</h2>
     <ul>
-      <li lang="en">en: Firefox 默认中文字型微调，Firefox 默认中文字型微调。</li>
-      <li lang="en">en: Firefox 預設中文字型微調，Firefox 預設中文字型微調。</li>
-      <li lang="zh">zh: Firefox 默认中文字型微调，Firefox 默认中文字型微调。</li>
-      <li lang="zh">zh: Firefox 預設中文字型微調，Firefox 預設中文字型微調。</li>
-      <li lang="zh-CN">zh-CN: Firefox 默认中文字型微调，Firefox 默认中文字型微调。</li>
-      <li lang="zh-HK">zh-HK: Firefox 預設中文字型微調，Firefox 預設中文字型微調。</li>
-      <li lang="zh-TW">zh-TW: Firefox 預設中文字型微調，Firefox 預設中文字型微調。</li>
+      <li lang="en"><span class="label">en: </span><span class="specimen">Firefox 預設中文字型微調，</span><span class="specimen">默认中文字型微调。</span></li>
+      <li lang="zh"><span class="label">zh: </span><span class="specimen">Firefox 預設中文字型微調，</span><span class="specimen">默认中文字型微调。</span></li>
+      <li lang="zh-CN"><span class="label">zh-CN: </span><span class="specimen">Firefox 預設中文字型微調，</span><span class="specimen">默认中文字型微调。</span></li>
+      <li lang="zh-HK"><span class="label">zh-HK: </span><span class="specimen">Firefox 預設中文字型微調，</span><span class="specimen">默认中文字型微调。</span></li>
+      <li lang="zh-TW"><span class="label">zh-TW: </span><span class="specimen">Firefox 預設中文字型微調，</span><span class="specimen">默认中文字型微调。</span></li>
     </ul>
   </div>
   <div class="serif">
     <h2>serif</h2>
     <ul>
-      <li lang="en">en: Firefox 默认中文字型微调，Firefox 默认中文字型微调。</li>
-      <li lang="en">en: Firefox 預設中文字型微調，Firefox 預設中文字型微調。</li>
-      <li lang="zh">zh: Firefox 默认中文字型微调，Firefox 默认中文字型微调。</li>
-      <li lang="zh">zh: Firefox 預設中文字型微調，Firefox 預設中文字型微調。</li>
-      <li lang="zh-CN">zh-CN: Firefox 默认中文字型微调，Firefox 默认中文字型微调。</li>
-      <li lang="zh-HK">zh-HK: Firefox 預設中文字型微調，Firefox 預設中文字型微調。</li>
-      <li lang="zh-TW">zh-TW: Firefox 預設中文字型微調，Firefox 預設中文字型微調。</li>
+      <li lang="en"><span class="label">en: </span><span class="specimen">Firefox 預設中文字型微調，</span><span class="specimen">默认中文字型微调。</span></li>
+      <li lang="zh"><span class="label">zh: </span><span class="specimen">Firefox 預設中文字型微調，</span><span class="specimen">默认中文字型微调。</span></li>
+      <li lang="zh-CN"><span class="label">zh-CN: </span><span class="specimen">Firefox 預設中文字型微調，</span><span class="specimen">默认中文字型微调。</span></li>
+      <li lang="zh-HK"><span class="label">zh-HK: </span><span class="specimen">Firefox 預設中文字型微調，</span><span class="specimen">默认中文字型微调。</span></li>
+      <li lang="zh-TW"><span class="label">zh-TW: </span><span class="specimen">Firefox 預設中文字型微調，</span><span class="specimen">默认中文字型微调。</span></li>
     </ul>
   </div>
   <div class="monospace">
     <h2>monospace</h2>
     <ul>
-      <li lang="en">en: Firefox 默认中文字型微调，Firefox 默认中文字型微调。</li>
-      <li lang="en">en: Firefox 預設中文字型微調，Firefox 預設中文字型微調。</li>
-      <li lang="zh">zh: Firefox 默认中文字型微调，Firefox 默认中文字型微调。</li>
-      <li lang="zh">zh: Firefox 預設中文字型微調，Firefox 預設中文字型微調。</li>
-      <li lang="zh-CN">zh-CN: Firefox 默认中文字型微调，Firefox 默认中文字型微调。</li>
-      <li lang="zh-HK">zh-HK: Firefox 預設中文字型微調，Firefox 預設中文字型微調。</li>
-      <li lang="zh-TW">zh-TW: Firefox 預設中文字型微調，Firefox 預設中文字型微調。</li>
+      <li lang="en"><span class="label">en: </span><span class="specimen">Firefox 預設中文字型微調，</span><span class="specimen">默认中文字型微调。</span></li>
+      <li lang="zh"><span class="label">zh: </span><span class="specimen">Firefox 預設中文字型微調，</span><span class="specimen">默认中文字型微调。</span></li>
+      <li lang="zh-CN"><span class="label">zh-CN: </span><span class="specimen">Firefox 預設中文字型微調，</span><span class="specimen">默认中文字型微调。</span></li>
+      <li lang="zh-HK"><span class="label">zh-HK: </span><span class="specimen">Firefox 預設中文字型微調，</span><span class="specimen">默认中文字型微调。</span></li>
+      <li lang="zh-TW"><span class="label">zh-TW: </span><span class="specimen">Firefox 預設中文字型微調，</span><span class="specimen">默认中文字型微调。</span></li>
     </ul>
   </div>
 </body>
